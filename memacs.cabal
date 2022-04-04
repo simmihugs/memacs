@@ -1,0 +1,98 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.4.
+--
+-- see: https://github.com/sol/hpack
+
+name:           memacs
+version:        0.1.0.0
+homepage:       https://gitlab.com/simmihugs/tetrisMemacs#readme
+author:         Simon Graetz
+maintainer:     simon.graetz@gmx.de
+copyright:      2022 Simon Graetz
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable app
+  main-is: Main.hs
+  other-modules:
+      Events.Calendar.CalendarEvents
+      Events.Calendar.TaskEvents
+      Events.CommandLineEvents
+      Events.SettingsEvents
+      Events.TetrisEvents
+      Events.Writer.FileBrowserEvents
+      Events.Writer.FileEvents
+      Events.Writer.WriterEvents
+      MainEvents
+      MainUI
+      Model
+      Model.CalendarModel
+      Model.ChannelModel
+      Model.CommandLineModel
+      Model.ErrorModel
+      Model.FileBrowserModel
+      Model.FileModel
+      Model.SettingsModel
+      Model.TaskModel
+      Model.TetrisModel
+      Parser.CommandLine
+      Parser.Hex
+      Parser.Json
+      Parser.Open
+      Parser.Parser
+      Parser.QQ
+      Types.Calendar
+      Types.Task
+      UI.Calendar.Calendar
+      UI.Calendar.DatePicker
+      UI.Calendar.Task
+      UI.CalendarUI
+      UI.CommandLineUI
+      UI.FileBrowserUI
+      UI.FileUI
+      UI.SettingsUI
+      UI.SideBarUI
+      UI.TetrisUI
+      UI.WriterUI
+      Utils.FileBrowser
+      Utils.Style
+      Utils.Tools
+      Widget.Tetris
+      Widget.TetrisWidget
+      Paths_memacs
+  hs-source-dirs:
+      src
+  default-extensions:
+      TemplateHaskell
+      FlexibleContexts
+      ScopedTypeVariables
+      FlexibleInstances
+      FunctionalDependencies
+  ghc-options: -fwarn-incomplete-patterns -threaded
+  build-depends:
+      MonadRandom
+    , aeson
+    , base >=4.7 && <5
+    , codeEditor
+    , containers
+    , data-default
+    , directory
+    , filepath
+    , ghc-syntax-highlighter
+    , lens
+    , monomer
+    , random
+    , stm
+    , template-haskell
+    , text
+    , text-show
+    , th-lift
+    , time
+    , tinyfiledialogs
+    , unordered-containers
+    , xml-conduit
+  default-language: Haskell2010

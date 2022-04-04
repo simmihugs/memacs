@@ -1,0 +1,40 @@
+Fortgeschrittene Funktionale Programmierung
+LMU, TCS, Wintersemester 2021
+
+# Projektabgabe
+
+## Gruppe 1 Teilnehmer:
+  Simon Peter Grätz 11555753
+
+## Projekttitel:
+  memacs
+
+## Projektbeschreibung:
+  Ein kleiner emacs clone - der wie das original gefuehlt alles hat ausser einem guten texteditor
+  memacs kann über ein settingsmenü die ui verändern,
+  hat einen calendar in dem task angelegt und editiert werden können,
+  kann dateien öffnen, verändern und speichern
+  und natuerlich kommt memacs mit tetris, falls mal langeweile aufkommt.
+
+## Abgedeckte vertiefende Themen:
+  - Template Haskell - Quasiquoter wird verwendet um json daten als config direkt im code als default anzugeben
+  - Funktionale Referenzen (Linsen) - Anlage (händisch) und automatisch von Linsen und verwendung als hauptsächliche Schnittstelle im Programm für den Zugriff und die manipulation von daten
+  - Anwendungsprogrammierung (Gui library https://github.com/fjvallarino/monomer)
+    - anlage eines widget
+    - lesen und schreiben von xml fuer tasks/todos
+    - lesen und schreiben von json fuer config
+    - filetree(browser)
+
+## Abnahme
+  Wir wünschen eine Abnahme
+   - [?] In Präsenz
+   - [X] Online via Videokonferenz
+   - [?] Egal
+  <ein ? bitte durch X ersetzen> 
+
+## Veröffentlichen
+
+Falls Sie einer Veröffentlichung Ihres Projekts zustimmen, 
+so fügen Sie Ihrer Abgabe eine Datei LICENSE bei, 
+in welcher Sie die Lizenz angeben unter welcher Ihr Projekt 
+veröffentlicht wird.

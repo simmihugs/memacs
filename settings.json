@@ -1,0 +1,32 @@
+{
+    "sidebar": {
+	"background":   "#4a824e",
+	"selectedItem": "#ffffff",
+	"normalItem":   "#000000",
+	"hoverItem":    "#6fc975"
+    },
+    "tetris": {
+	"normalColor": "#525152"
+    },
+    "file": {
+	"fileColor1": "#abb333",
+	"fileColor2": "#a1140a",
+	"fileColor3": "#ffffff",
+	"fileColor4": "#fad241",
+	"fileColor5": "#008bad",
+	"fileColor6": "#655f69",
+	"fileColor7": "#000000"
+    },
+    "fileBrowser": {
+	"fileBrowser1": "#9500ff",
+	"fileBrowser2": "#00ccff",
+	"fileBrowser3": "#fad241",
+	"fileBrowser4": "#008bad",
+	"fileBrowser5": "#6403a8",
+	"fileBrowser6": "#000000",
+	"fileBrowser7": "#655f69",
+	"fileBrowser8": "#ffffff",
+	"fileBrowser9": "#ff2200",
+	"fileBrowser10": "#a1140a"
+    }
+}

@@ -1,0 +1,47 @@
+name:                memacs
+version:             0.1.0.0
+homepage:            https://gitlab.com/simmihugs/tetrisMemacs#readme
+license:             BSD3
+author:              Simon Graetz
+maintainer:          simon.graetz@gmx.de
+copyright:           2022 Simon Graetz
+extra-source-files:
+- README.md
+
+default-extensions:
+- TemplateHaskell
+- FlexibleContexts
+- ScopedTypeVariables
+- FlexibleInstances
+- FunctionalDependencies
+
+dependencies:
+  - base >= 4.7 && < 5
+  - data-default
+  - lens
+  - monomer
+  - text
+  - text-show
+  - random
+  - stm
+  - aeson
+  - containers
+  - MonadRandom
+  - time
+  - xml-conduit
+  - directory
+  - filepath
+  - tinyfiledialogs
+  - unordered-containers
+  - template-haskell
+  - th-lift
+  - ghc-syntax-highlighter
+  - codeEditor
+
+executables:
+  app:
+    source-dirs:      src
+    main:             Main.hs
+    ghc-options:
+    - -fwarn-incomplete-patterns
+    - -threaded
